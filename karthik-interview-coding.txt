@@ -1,0 +1,67 @@
+//palindrome 
+function palindrome(str) {
+  let revStr = str.toLowerCase().split("").reverse().join("");
+  if (revStr === str.toLowerCase()) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(palindrome("abbab"));
+
+
+
+
+
+//reverse Integer
+
+function reverseInteger(num) {
+  let strNum = num.toString().split("");
+  let newArr = [];
+  for (let i = 0; i < strNum.length; i++) {
+    if (strNum[i] != 0) {
+      newArr.push(strNum[i]);
+    }
+  }
+
+  return newArr.reverse().join("");
+}
+
+console.log(reverseInteger(123));
+
+
+
+
+//sort
+function sort(arr) {
+  let temp;
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = i + 1; j < arr.length; j++) {
+      if (arr[i] > arr[j]) {
+        temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+      }
+    }
+  }
+  return arr;
+}
+console.log(sort([1, 5, 2, 8, 0]));
+
+
+
+
+//sub Array
+function subArray(arr, size) {
+  let subArr = [];
+  for (let i = 0; i < arr.length / size; i++) {
+    let newArr = [];
+    for (let j = i; j < size; j++) {
+      newArr.push(arr[j]);
+    }
+    subArr.push(newArr);
+  }
+  return subArr;
+}
+console.log(subArray([1, 2, 3, 4], 2));
+

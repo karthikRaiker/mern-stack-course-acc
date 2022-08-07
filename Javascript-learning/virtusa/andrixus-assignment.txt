@@ -1,0 +1,38 @@
+Second Round || Task MEAN Stack Developer || Karthik || Adrixus Tech Studio - Vadodara
+
+
+Hello  Karthik
+Good Morning 
+
+We are pleased to inform you that you are selected for the Second Round of Interview. 
+
+This is the task that we are assigning it to you kindly go through it 
+
+Please find the React & Node task;
+
+The technologies we need to use here is React & Node
+
+Create a signup and login screen with Stub for both, user should be able to input first name, last name, email, and password.Password should be hashed
+Once user logs in User should be able to see a list of 100 users in a table, but it should be a paginated list.
+
+Pagination Stub needs to be handled and table pagination should be developed in the frontend
+
+We should be able to search users in the table on the frontend from the current list of visible users.
+Also, create backend APIs for the same frontend (You can even use dummy data on your own)
+
+Also please share with us the Github link for the same.
+
+Minimum release criteria:
+1. It should be SPA(React/Angular)
+2. At least 3 core feature on client side (Sorting, Filtering (Searching), Pagination(Should be done by candidate not by any external package/library like ANTD, Chakra, react tabel etc...))
+3. Should have at least 3 Route (sign-up, sign-in, dashboard)
+4. It should communicate to backend if MERN/MEAN task. Or to API if only frontend task(you can use https://reqres.in/ or any other service you are familiar with).
+5. It should be able to save data (In local storage or in db).
+6. It should be deployed & running in production (You can use Vercel/Netlify or any other service you are familiar with for this)
+7. Mobile Responsive(Not mandatory)
+
+
+Let us know if you have any questions and do complete the task by upcoming  Tuesday 15th March 10am and submit it for review.
+Thanks & Regards
+Shagun Gupta 
+Human Resource Coordinator
